@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("TAG", "onCreate: this is first commit.");
         Log.d("TAG", "onCreate: not use rebase");
+        Log.d("TAG", "onCreate: use rebase");
     }
 }
