@@ -2,6 +2,7 @@ package com.example.sunnyweather;
 
 import android.app.Application;
 import android.content.Context;
+import android.util.Log;
 
 public class SunnyWeatherApplication extends Application {
 
@@ -17,5 +18,6 @@ public class SunnyWeatherApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
+        Log.d("TAG", "onCreate: this is merge.");
     }
 }
